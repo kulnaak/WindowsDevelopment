@@ -1,12 +1,17 @@
 ﻿using System.Numerics;
 using Calculator_console.Memory;
 
-
-
 namespace Calculator_console
 {
+    /// <summary>
+    /// Represents the main program logic for the calculator.
+    /// </summary>
     internal class Program
     {
+        /// <summary>
+        /// The entry point of the calculator program.
+        /// </summary>
+        /// <param name="args">The command-line arguments.</param>
         static void Main(string[] args)
         {
             bool exit = false;
